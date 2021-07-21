@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+body, html {
+    border: 0;
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #2A2F36;
+    /*background-color: #2F3F3C;*/
+    color: white;
+}
+
+h1 {
+    letter-spacing: 0.4rem;
+}
+
+.name {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.maincon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.divcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+.nav > li {
+    list-style-type: none;
+    padding: 0 1.25rem 0 1.25rem;
+    border-right: solid 1px white;
+}
+
+.nav > li:last-child {
+    border-right: none
+}
