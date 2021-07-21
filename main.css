@@ -18,6 +18,13 @@ h1 {
     margin-bottom: 1rem;
 }
 
+.tagline{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
 .maincon {
     display: flex;
     flex-direction: column;
@@ -30,7 +37,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav {
@@ -43,16 +50,19 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
+    font-size: 0.85rem;
 }
 
-a:hover {
-    background-color: transparent;
+.nav > li:hover {
+    background-color: rgba(255, 255, 255, 0.075);
 }
 
 .nav > li {
     list-style-type: none;
-    padding: 0 1.25rem 0 1.25rem;
+    padding: 1rem 1.25rem 1rem 1.25rem;
     border-right: solid 1px white;
+    min-width: 6rem;
+    text-align: center;
 }
 
 .nav > li:last-child {
