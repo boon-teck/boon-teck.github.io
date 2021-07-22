@@ -100,8 +100,11 @@ a {
     }
 }
 
-#articlepages {
-    display: flex;
+
+/*for article pages*/
+
+.articlepages {
+    display: none !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -110,7 +113,7 @@ a {
     /*background-color: red;*/
 }
 
-#main {
+.main {
     /*display: flex;*/
     justify-content: center;
     align-items: center;
@@ -128,4 +131,14 @@ a {
 .article-image > img {
     width: 100%;
     border-radius: 4px;
+}
+
+.articlepagesflex {
+    display: flex !important;
+}
+
+article > h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    text-decoration: underline;
 }
