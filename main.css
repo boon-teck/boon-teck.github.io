@@ -4,7 +4,8 @@ body, html {
     border: 0;
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
-    background-color: #2A2F36;
+    background-color: #4E5864;
+    /*background-color: #2A2F36;*/
     /*background-color: #2F3F3C;*/
     color: white;
 }
@@ -46,10 +47,10 @@ h1 {
     /*max-height: 0;*/
 }
 
-.divcon:hover{
-    transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-    max-height: 50rem;
-}
+/*.divcon:hover{*/
+/*    transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;*/
+/*    max-height: 50rem;*/
+/*}*/
 
 .nav {
     display: flex;
@@ -97,4 +98,34 @@ a {
     to {
         opacity: 1;
     }
+}
+
+#articlepages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /*max-width: 40rem;*/
+    /*background-color: red;*/
+}
+
+#main {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: 2rem;
+    border-radius: 8px;
+    background-color: #23272B;
+    max-width: 40rem;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article-image > img {
+    width: 100%;
+    border-radius: 4px;
 }
