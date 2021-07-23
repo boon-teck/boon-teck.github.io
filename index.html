@@ -20,7 +20,7 @@
                 <li><a onclick="togglehidden('whoami')" href="#whoami">About Me</a></li>
                 <li><a onclick="togglehidden('projects')" href="#">Projects</a></li>
                 <li><a onclick="togglehidden('blogs')" href="#">Blog</a></li>
-                <li><a onclick="togglehidden()" href="#">Contact</a></li>
+                <li><a onclick="togglehidden('contact')" href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -30,12 +30,14 @@
             <article>
                 <img onclick="togglehidden('whoami')" class="close" src="./static/x-mark.png" />
                 <h2>Introduction</h2>
-                <span class="article-image"><img src="https://via.placeholder.com/468x300?text=App+Screenshot+Here" alt=""></span>
+                <span class="article-image"><img src="./static/whoami.png" alt=""></span>
             </article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at consequuntur, delectus eum fugiat incidunt molestiae nihil perferendis quia, quo quod repellendus soluta, tempora velit veniam voluptates voluptatum. Consequuntur, voluptates.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, autem corporis eum, illo laborum <molliti></molliti>a nisi optio quia quidem reiciendis reprehenderit sapiente sit sunt vel veniam voluptate voluptatem voluptatibus?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, autem corporis eum, illo laborum <molliti></molliti>a nisi optio quia quidem reiciendis reprehenderit sapiente sit sunt vel veniam voluptate voluptatem voluptatibus?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, autem corporis eum, illo laborum <molliti></molliti>a nisi optio quia quidem reiciendis reprehenderit sapiente sit sunt vel veniam voluptate voluptatem voluptatibus?</p>
+            <blockquote>
+                <p>Hello and welcome. Thank you for visiting my website!</p>
+                <p>I love minimalist design and thus the direction for the first iteration of my website.</p>
+                <p>Feel free to connect with me on LinkedIn. Do checkout some of my projects I've done during my bootcamp. I appreciate any form of feedback, especially on how I can better improve my skills.</p>
+                <cite>-Boon Teck</cite>
+            </blockquote>
         </div>
     </div>
 
@@ -58,14 +60,37 @@
             <article>
                 <img onclick="togglehidden('blogs')" class="close" src="./static/x-mark.png" />
                 <h2>Blog</h2>
-                <span class="article-image"><img src="https://via.placeholder.com/468x300?text=App+Screenshot+Here" alt=""></span>
+                <h3>23 Jul</h3>
             </article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at consequuntur, delectus eum fugiat incidunt molestiae nihil perferendis quia, quo quod repellendus soluta, tempora velit veniam voluptates voluptatum. Consequuntur, voluptates.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, autem corporis eum, illo laborum <molliti></molliti>a nisi optio quia quidem reiciendis reprehenderit sapiente sit sunt vel veniam voluptate voluptatem voluptatibus?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, autem corporis eum, illo laborum <molliti></molliti>a nisi optio quia quidem reiciendis reprehenderit sapiente sit sunt vel veniam voluptate voluptatem voluptatibus?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid, autem corporis eum, illo laborum <molliti></molliti>a nisi optio quia quidem reiciendis reprehenderit sapiente sit sunt vel veniam voluptate voluptatem voluptatibus?</p>
+            <p>First day of the website. This website is built on vanilla javascript, html and css only.</p>
         </div>
     </div>
+
+    <div class="articlepages" id="contact">
+        <div class="main">
+            <article>
+                <img onclick="togglehidden('contact')" class="close" src="./static/x-mark.png" />
+                <h2>Contact</h2>
+                <form method="POST" action="#">
+                    <div>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="John">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" placeholder="John@gmail.com">
+                        </div>
+                        <label for="message">Message</label>
+                        <textarea  type="text" name="message" rows="5"></textarea>
+                    </div>
+
+                    <button>Send Message</button>
+                </form>
+        </div>
+    </div>
+
+
 
     <script src="./main.js"></script>
 </body>
