@@ -201,6 +201,7 @@ article > h2 {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     text-decoration: underline;
+    text-underline-offset: 0.6rem;
 }
 
 article>img.close {
