@@ -17,5 +17,6 @@ function togglehidden(page) {
     console.log(page)
     let articlePage = document.getElementById(page)
     articlePage.classList.toggle("articlepagesflex")
+
 }
 
