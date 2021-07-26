@@ -138,12 +138,14 @@ a {
     animation: scale-in 0.25s;
 }
 
-.scale-in {
-    animation: scale-in 0.25s;
+.main blockquote+div {
+    display: flex;
+    justify-content: center;
 }
 
-.scale-out {
-    animation: scale-out 0.5s;
+.main blockquote+div > a {
+    padding: 0.2rem;
+    min-width: 0;
 }
 
 @keyframes scale-in {
@@ -332,6 +334,20 @@ form > button {
 
 .project-article > div > p{
     margin: 0;
+}
+
+.project-article > div > a{
+    padding: 0;
+}
+
+.project-article > div > h3 > a:first-child{
+    padding-left: 1rem;
+    display: inline;
+}
+
+.project-article > div > h3 > a{
+    display: inline;
+    padding: 0;
 }
 
 .project-article > div > h3{
