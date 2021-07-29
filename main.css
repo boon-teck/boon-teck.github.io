@@ -314,6 +314,19 @@ form > button {
     line-height: calc(2.5rem - 5px)
 }
 
+
+@media only screen and (max-width: 450px) {
+    form > div {
+        width: 100%;
+        display: block;
+        margin-bottom: 0;
+    }
+    div.formfield {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
 #projects .project-article {
     margin-bottom: 1rem;
     display: flex;
@@ -378,5 +391,7 @@ form > button {
 #whoami article > div {
     text-align: center;
 }
+
+
 
 
